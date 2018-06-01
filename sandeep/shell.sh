@@ -10,6 +10,6 @@ echo "generated executables"
 cd build
 Build
 
-./testcase.sh test_case.txt
+./testcase.sh ../../test/test_case.txt
 
 exit 0

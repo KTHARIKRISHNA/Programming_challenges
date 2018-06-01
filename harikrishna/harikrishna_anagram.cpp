@@ -23,6 +23,14 @@ int out = 0;
 //Code Starts from here
 
 
+std::sort(str1.begin(), str1.end());
+std::sort(str2.begin(), str2.end());
+
+if (str1 == str2)
+{
+out = 1;
+//cout<<out;
+}
 
 
 //
