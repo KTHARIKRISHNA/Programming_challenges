@@ -13,6 +13,12 @@
 #include <cstdlib>
 using namespace std;
 
+string sortString(string &str)
+{
+  sort(str.begin(),str.end());
+  return str;
+}
+
 int main(int argc, char** argv)
 {
 
@@ -21,7 +27,12 @@ string str2 = argv[2];
 int out = 0;
 
 //Code Starts from here
+str1 = sortString(str1);
+str2 = sortString(str2);
 
+if (str1 == str2){
+out =1;
+}
 
 
 
